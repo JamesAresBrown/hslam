@@ -33,3 +33,6 @@ Green path is VIO odometry; blue path is odometry under GPS global fusion.
 ```
 dense/config/dense1.yaml is the default configuration file. In the file, you can configure the generation path and options.
 For the configuration of options, refer to the [Documentation - PMVS (Version 2)](https://www.di.ens.fr/pmvs/documentation.html) (generally do not need to be modified).
+
+In models/, .pcd .ply lla.txt will be generated, and lla.txt is the latitude and longitude coordinates of the global real scale.
+.pcd and .ply also have relative global scales.
